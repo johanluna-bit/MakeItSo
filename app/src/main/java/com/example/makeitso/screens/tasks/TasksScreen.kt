@@ -128,8 +128,7 @@ fun TasksScreenPreview() {
   MakeItSoTheme {
     TasksScreenContent(
       tasks = listOf(task),
-      options = options,
-      onAddClick = { },
+      options = options,      onAddClick = { },
       onSettingsClick = { },
       onTaskCheckChange = { },
       onTaskActionClick = { _, _, _ -> },
